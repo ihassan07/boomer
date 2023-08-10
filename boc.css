@@ -1,0 +1,158 @@
+html{
+background: linear-gradient(grey,rgb(77, 77, 77));
+
+background-repeat:no-repeat;
+background-position: center;
+    background-size: 100%;
+        background-attachment: fixed;
+
+
+}
+
+#h1{
+    color: rgb(28, 28, 28);
+   
+    font-family: 'Abril Fatface', cursive;
+
+text-align: center;
+font-size: 50px
+}
+
+
+#navb1{ 
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+	background-color: rgb(150, 150, 150);
+	
+	
+}
+
+li a{
+	color:black;
+	float:left;
+	display:block;
+	padding: 10px 15px;
+	text-align:center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+	border-right: 2px solid rgb(39, 39, 39);
+	min-width: 60px ;
+}
+
+li a:hover{
+
+
+	background-color: rgb(122, 121, 121);
+	animation: glow0;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes  glow0{ 
+	70% { text-shadow:0px 0px 10px white}
+}
+
+#c4{
+	align-items: center;
+}
+
+/*Rick*/
+#r1{
+    width: 300px;
+	height: 250px;
+
+}
+#r22{
+    background-color: rgb(135, 135, 135);
+    width: 350px;
+    height: 600px;
+    text-align: center;
+box-shadow: 50px;
+    margin-left: 500px;
+    
+}
+#lir1{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.has1{ 
+padding-top: 10px;
+font-family: 'Abril Fatface', cursive;
+}
+
+#rickinfo{
+color:rgb(0, 0, 0);
+font-family: 'Signika Negative', sans-serif;
+font-size: 15px;
+
+}
+/*Rick end*/
+
+
+/*Bi0p*/
+#Bi0p{
+	background-color: rgb(135, 135, 135);
+    width: 350px;
+    height: 500px;
+    text-align: center;
+
+    margin-left: 500px;
+}
+
+#jtou1{
+text-decoration: none;
+color: black;
+}
+
+#s3{
+color: aqua;
+
+
+}
+
+#mj{
+	background-color: rgb(134, 145, 7);
+    width: 350px;
+    height: 545px;
+    text-align: center;
+
+    margin-left: 500px;
+	border-width: 5px;
+	box-shadow: 0 0 190px;
+}
+
+#mhp{
+width: 290px;
+height: 200px;
+}
+
+.nmj{
+	text-decoration: none;
+	color:black;
+font-size: 25px;
+	
+}
+.nmj:hover{
+	font-size: 27px;
+
+color:rgb(36, 36, 36);
+
+	animation: glow0;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes  glow0{ 
+	70% { text-shadow:0px 0px 10px white}
+}
+
+#tm0{
+	color:white;
+	text-align: center;
+}
+#textbar{
+	text-align: center;
+	
+}
